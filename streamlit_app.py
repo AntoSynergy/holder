@@ -17,7 +17,7 @@ def get_azure_blob_client():
 st.title("Téléversement de fichiers")
 
 # Widget de téléversement de fichier
-uploaded_file = st.file_uploader("Sélectionnez un fichier CSV", type=["csv","xlsx","json"])
+uploaded_file = st.file_uploader("Sélectionnez un fichier CSV", type=["csv","xlsx"])
 
 # Vérifier si un fichier a été téléversé
 if uploaded_file is not None:
