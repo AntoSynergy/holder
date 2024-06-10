@@ -41,7 +41,7 @@ def get_azure_blob_client():
 
 # Sidebar Menu
 st.sidebar.title("Menu")
-menu = st.sidebar.radio("Navigation", ["Home", "Dépôt"])
+menu = st.sidebar.radio("Navigation", ["Accueil", "Dépôt"])
 
 if menu == "Home":
     st.title("Accueil")
