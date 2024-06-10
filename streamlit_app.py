@@ -56,8 +56,10 @@ elif menu == "Dépôt":
     uploaded_file = st.file_uploader("Sélectionnez un fichier CSV", type=["csv", "xlsx"])
     
     # Option pour sélectionner le délimiteur
-    delimiter = st.selectbox("Sélectionnez le délimiteur du fichier CSV", [",",";"])
     
+    format=st.selectbox("Choisissez le format du fichier",["CSV","XLSX"])
+    if format =="CSV":
+        delimiter = st.selectbox("Sélectionnez le délimiteur du fichier CSV", [",",";"])
     # Vérifier si un fichier a été téléversé
     if uploaded_file is not None:
         validate = st.button("Valider")
