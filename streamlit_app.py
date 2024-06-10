@@ -3,9 +3,9 @@ from azure.storage.blob import BlobServiceClient
 import pandas as pd 
 import os
 
-Secret_string= os.getenv('AZURESTORAGE')
+
 # Paramètres de connexion Azure Blob Storage
-AZURE_CONNECTION_STRING = Secret_string
+AZURE_CONNECTION_STRING = os.getenv('AZURESTORAGE')
 AZURE_CONTAINER_NAME = 'antoinze'
 
 # Fonction pour établir une connexion à Azure Blob Storage
