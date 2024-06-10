@@ -43,7 +43,7 @@ def get_azure_blob_client():
 st.sidebar.title("Menu")
 menu = st.sidebar.radio("Navigation", ["Accueil", "Dépôt"])
 
-if menu == "Home":
+if menu == "Accueil":
     st.title("Accueil")
     st.write("Bienvenue sur l'application de téléversement de fichiers d'HOLDER.")
     image_url="https://th.bing.com/th/id/R.94d0294b4adf9af75b7c9374602d8c19?rik=53TxVxUvr86xxA&riu=http%3a%2f%2fwww.groupeholder.com%2f_files%2f_media%2fimages%2flogo_holder.png&ehk=tbMZniI%2fiLu%2bO6zUD8QZWGvweho0E61TvKrKmyfoFRk%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1"
