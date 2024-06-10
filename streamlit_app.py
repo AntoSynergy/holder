@@ -4,7 +4,7 @@ import pandas as pd
 
 
 # Paramètres de connexion Azure Blob Storage
-AZURE_CONNECTION_STRING = 'DefaultEndpointsProtocol=https;AccountName=csb100320036fd16df4;AccountKey=ZXstKpygpdrTGBL0SISmIkZHOnWTZLMyt3OQ8TImph6sxdykKnWA8ByV+IHiv5EzAn6C5dvMTYDL+AStedoewg==;EndpointSuffix=core.windows.net'
+AZURE_CONNECTION_STRING = 'DefaultEndpointsProtocol=https;AccountName=;AccountKey=++AStedoewg==;EndpointSuffix=core.windows.net'
 AZURE_CONTAINER_NAME = 'antoinze'
 
 # Fonction pour établir une connexion à Azure Blob Storage
