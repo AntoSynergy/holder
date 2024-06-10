@@ -53,7 +53,7 @@ elif menu == "Dépôt":
     st.title("Téléversement de fichiers")
     
     # Widget de téléversement de fichier
-    uploaded_file = st.file_uploader("Sélectionnez un fichier CSV", type=["csv", "xlsx"])
+    uploaded_file = st.file_uploader("Sélectionnez un fichier CSV ou XLSX", type=["csv", "xlsx"])
     
     # Option pour sélectionner le délimiteur
     
